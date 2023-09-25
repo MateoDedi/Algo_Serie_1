@@ -1,5 +1,8 @@
 function sortDrinkByPrice(drinks) {
-    drinks.sort((a, b) => a.price - b.price)
+
+    drinks.sort(function (a, b) {
+        return a.price - b.price;
+    })
     return drinks;
 }
 
